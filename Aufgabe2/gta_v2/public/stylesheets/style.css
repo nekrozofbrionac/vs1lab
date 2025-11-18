@@ -246,4 +246,11 @@ input:disabled {
     }
 }
 
-/* ... your code here ... */
+
+
+/* As dictated by the Exercise Description */
+#map {
+    height: 500px;
+}
+
+
