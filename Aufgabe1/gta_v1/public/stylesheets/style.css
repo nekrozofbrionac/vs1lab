@@ -46,6 +46,10 @@ a {
 
 /* ### TODO ### Styles for other HTML elements */
 
+.display-none {
+    display: none;
+}
+
 input {
     height: 3em;
     padding: 0.5em;
@@ -114,9 +118,6 @@ input:disabled {
     width: calc(100% - 1rem);
 }
 
-
-/* ### TODO ### Styles for Header Component */
-
 .header {
     top: 0;
     width: 100%;
@@ -131,7 +132,6 @@ input:disabled {
     background: var(--background-color);
 }
 
-
 .header__image {
     height: 5em;
 }
@@ -140,10 +140,6 @@ input:disabled {
     flex: 1;
     text-align: center;
 }
-
-
-/* ### TODO ### Styles for Main Component */
-
 
 .main {
     flex: 1;
@@ -154,9 +150,6 @@ input:disabled {
 
     overflow: scroll;
 }
-
-
-/* ### TODO ### Styles for Tagging component */
 
 .main__tagging,
 .main__discovery {
@@ -180,8 +173,6 @@ input:disabled {
     display: flex;
     flex-direction: column;
 }
-
-/* ### TODO ### Styles for Discovery component */
 
 .main__discovery {
     padding: 2em;
@@ -222,8 +213,6 @@ input:disabled {
     aspect-ratio: 1/1;
 }
 
-/* ### TODO ### Styles for Footer Component */
-
 .footer {
     width: 100%;
     height: 10em;
@@ -232,8 +221,6 @@ input:disabled {
     padding-left: 2em;
     align-content: center;
 }
-
-/* ### TODO ### Media Queries */
 
 @media (orientation: portrait) {
     .main {
@@ -245,5 +232,3 @@ input:disabled {
         flex-direction: column;
     }
 }
-
-/* ... your code here ... */

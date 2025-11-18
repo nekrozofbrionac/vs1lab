@@ -32,7 +32,7 @@
                 <legend>Add a new GeoTag</legend>
                 <div class="form-field">
                     <label for="latitude">
-                        Latitude
+                        Latitude:
                     </label>
                     <input type="text"
                            disabled
@@ -41,7 +41,7 @@
                 </div>
                 <div class="form-field">
                     <label for="longitude">
-                        Longitude
+                        Longitude:
                     </label>
                     <input type="text"
                            disabled
@@ -50,7 +50,7 @@
                 </div>
                 <div class="form-field">
                     <label for="name">
-                        Name
+                        Name:
                     </label>
                     <input type="text"
                            id="name"
@@ -58,11 +58,10 @@
                            pattern="[A-Za-z]{1,10}"
                            placeholder="e.g. Berlin Central Station"
                            required/>
-
                 </div>
                 <div class="form-field">
                     <label for="hashtag">
-                        Hashtag
+                        Hashtag:
                     </label>
                     <input type="text"
                            id="hashtag"
@@ -100,6 +99,24 @@
                            id="search"
                            name="search"
                            required/>
+                </div>
+                <div class="display-none">
+                    <label for="search_latitude">
+                        Latitude:
+                    </label>
+                    <input type="text"
+                           disabled
+                           id="search_latitude"
+                           name="latitude"/>
+                </div>
+                <div class="display-none">
+                    <label for="search_longitude">
+                        Longitude:
+                    </label>
+                    <input type="text"
+                           disabled
+                           id="search_longitude"
+                           name="longitude"/>
                 </div>
                 <div class="form-field">
                     <input type="submit"
